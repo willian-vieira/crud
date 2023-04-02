@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2537bc-bebd-4e50-b803-07c48c8e6adb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IPersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
