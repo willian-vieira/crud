@@ -8,7 +8,7 @@ import java.util.List;
  * Interface de Pessoa
  */
 public interface IPersonDAO {
-    public List<Person> listPerson();
+    public List<Person> listPerson(Person person);
     public Person findPersonById(Integer id);
     public void addPerson(Person person);
     public void updatePerson(Person person);
