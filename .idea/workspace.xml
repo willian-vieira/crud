@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/IPersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IPersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
