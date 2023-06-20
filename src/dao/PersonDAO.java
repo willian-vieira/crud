@@ -22,8 +22,9 @@ public class PersonDAO implements IPersonDAO {
      * @return Lista Pessoas
      **************************/
     @Override
-    public List<Person> listPerson(Person person) {
-        List<Person> listPerson = new ArrayList<>();
+    public List<Person> listPerson() {
+        Person person = null;
+        List<Person> listPerson = null;
 
         try {
             connection = ConnectionFactory.connect();
@@ -31,16 +32,20 @@ public class PersonDAO implements IPersonDAO {
             resultSet = pstm.executeQuery();
 
             while (resultSet.next()) {
+                person = new Person();
                 person.setId(resultSet.getInt(1));
                 person.setName(resultSet.getString(2));
                 person.setCpf(resultSet.getString(3));
                 person.setEmail(resultSet.getString(4));
                 person.setPhone(resultSet.getString(5));
+
+                listPerson = new ArrayList<>();
                 listPerson.add(person);
             }
 
             connection.close();
             pstm.close();
+            resultSet.close();
 
             return listPerson;
 
